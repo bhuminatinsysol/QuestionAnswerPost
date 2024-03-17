@@ -1,0 +1,23 @@
+<p>home works!</p>
+<button (click)="fetchQuestions()">Fetch Questions</button>
+
+<div *ngIf="QuestionsList.length >0">
+  <ng-container *ngFor="let Que of QuestionsList">
+    <div class="card p-5 border border-2 border-dark ">
+      <div class="card-header">
+        <h1>{{Que.Question}}</h1>
+      </div>
+      <div class="card-body">
+        <form>
+          <input type="text" placeholder="Write your Answer">
+          <button class="btn btn-primary ">Submit</button>
+        </form>
+        <div class="card-container">
+          <ng-container *ngFor="let ans of Que.Answers">
+            <h3>{{ans}}</h3>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>

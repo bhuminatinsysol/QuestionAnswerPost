@@ -1,0 +1,260 @@
+{
+  "Questions":[
+    {
+      "id":1,
+      "Question":"What is a angular?",
+      "Answers":[
+        "Angular is a typescript based framework",
+        "Angular is used to create a single page web application."
+      ]
+    },
+    {
+        "id": 2,
+        "Question": "What are the key features of Angular?",
+        "Answers": [
+            "Angular offers features like data binding, dependency injection, directives, components, and more.",
+            "It provides tools for routing, forms handling, and HTTP client."
+        ]
+    },
+    {
+        "id": 3,
+        "Question": "What is TypeScript?",
+        "Answers": [
+            "TypeScript is a superset of JavaScript developed by Microsoft.",
+            "It adds optional static typing and other features to JavaScript."
+        ]
+    },
+    {
+        "id": 4,
+        "Question": "What is data binding in Angular?",
+        "Answers": [
+            "Data binding is a mechanism for synchronizing the data between the model and view components.",
+            "It eliminates the need for manual DOM manipulation."
+        ]
+    },
+    {
+        "id": 5,
+        "Question": "Explain dependency injection in Angular.",
+        "Answers": [
+            "Dependency injection is a design pattern where dependencies are injected into a component rather than created within it.",
+            "It promotes modular and reusable code."
+        ]
+    },
+    {
+        "id": 6,
+        "Question": "What are directives in Angular?",
+        "Answers": [
+            "Directives are markers on a DOM element that tell Angular to do something to that element or its children.",
+            "They can be structural (like ngIf and ngFor) or attribute-based (like ngStyle and ngClass)."
+        ]
+    },
+    {
+        "id": 7,
+        "Question": "Explain Angular components.",
+        "Answers": [
+            "Components are the building blocks of an Angular application.",
+            "They encapsulate the template, data, and behavior of a view."
+        ]
+    },
+    {
+        "id": 8,
+        "Question": "What is Angular CLI?",
+        "Answers": [
+            "Angular CLI (Command Line Interface) is a command-line tool for initializing, developing, scaffolding, and maintaining Angular applications.",
+            "It provides commands for generating components, services, modules, and more."
+        ]
+    },
+    {
+        "id": 9,
+        "Question": "What is Angular router?",
+        "Answers": [
+            "Angular router is a library that enables navigation from one view to another in an Angular application.",
+            "It provides features like lazy loading, route guards, and nested routing."
+        ]
+    },
+    {
+        "id": 10,
+        "Question": "What is Angular Forms module?",
+        "Answers": [
+            "Angular Forms module provides tools for handling user input through forms.",
+            "It supports template-driven forms and reactive forms."
+        ]
+    },
+    {
+        "id": 11,
+        "Question": "What is Angular HTTP client?",
+        "Answers": [
+            "Angular HTTP client is a built-in module for making HTTP requests in Angular applications.",
+            "It simplifies handling AJAX requests and responses."
+        ]
+    },
+    {
+        "id": 12,
+        "Question": "Explain Angular services.",
+        "Answers": [
+            "Services are reusable components in Angular that can provide functionality to multiple parts of an application.",
+            "They are typically used for tasks such as data fetching, logging, or authentication."
+        ]
+    },
+    {
+        "id": 13,
+        "Question": "What is Angular Material?",
+        "Answers": [
+            "Angular Material is a UI component library for Angular applications.",
+            "It provides pre-built UI components following Material Design principles."
+        ]
+    },
+    {
+        "id": 14,
+        "Question": "What is Angular Ivy?",
+        "Answers": [
+            "Angular Ivy is the next-generation rendering engine for Angular applications.",
+            "It offers improved performance, smaller bundle sizes, and better debugging."
+        ]
+    },
+    {
+        "id": 15,
+        "Question": "What are Angular pipes?",
+        "Answers": [
+            "Angular pipes are a way to transform data in an Angular template.",
+            "They are similar to filters in AngularJS."
+        ]
+    },
+    {
+        "id": 16,
+        "Question": "Explain Angular modules.",
+        "Answers": [
+            "Angular modules are containers for a group of related components, directives, pipes, and services.",
+            "They help organize an application into cohesive blocks of functionality."
+        ]
+    },
+    {
+        "id": 17,
+        "Question": "What is Angular Ivy?",
+        "Answers": [
+            "Angular Ivy is the next-generation rendering engine for Angular applications.",
+            "It offers improved performance, smaller bundle sizes, and better debugging."
+        ]
+    },
+    {
+        "id": 18,
+        "Question": "What is Angular Universal?",
+        "Answers": [
+            "Angular Universal is a technology that allows server-side rendering of Angular applications.",
+            "It improves performance and SEO."
+        ]
+    },
+    {
+        "id": 19,
+        "Question": "What is Angular animation?",
+        "Answers": [
+            "Angular animation is a module for adding animations to Angular applications.",
+            "It supports various animation types like CSS animations, transitions, and keyframes."
+        ]
+    },
+    {
+        "id": 20,
+        "Question": "Explain Angular testing utilities.",
+        "Answers": [
+            "Angular provides testing utilities like TestBed and ComponentFixture for testing Angular components.",
+            "They enable unit testing and integration testing of Angular applications."
+        ]
+    },
+    {
+        "id": 21,
+        "Question": "What are Angular interceptors?",
+        "Answers": [
+            "Angular interceptors are middleware that can intercept HTTP requests and responses.",
+            "They are used for tasks like logging, modifying requests, or handling errors globally."
+        ]
+    },
+    {
+        "id": 22,
+        "Question": "What is Angular DI (Dependency Injection)?",
+        "Answers": [
+            "Angular DI is a design pattern where dependencies are provided to a component from an external source.",
+            "It helps in writing clean, maintainable, and testable code."
+        ]
+    },
+    {
+        "id": 23,
+        "Question": "What is Angular zone?",
+        "Answers": [
+            "Angular zone is a mechanism for tracking and managing asynchronous tasks in Angular applications.",
+            "It is used for change detection and error handling."
+        ]
+    },
+    {
+        "id": 24,
+        "Question": "What is Angular Material Design?",
+        "Answers": [
+            "Angular Material Design is a design language for user interfaces developed by Google.",
+            "It emphasizes principles like material surfaces, bold graphics, and meaningful motion."
+        ]
+    },
+    {
+        "id": 25,
+        "Question": "Explain Angular decorators.",
+        "Answers": [
+            "Angular decorators are functions that modify the behavior of classes, properties, or methods in Angular applications.",
+            "They are used for features like component metadata, dependency injection, and module configuration."
+        ]
+    },
+    {
+        "id": 26,
+        "Question": "What is Angular zone.js?",
+        "Answers": [
+            "Angular zone.js is a library used by Angular for change detection and managing asynchronous tasks.",
+            "It patches browser APIs to detect changes in the execution context."
+        ]
+    },
+    {
+        "id": 27,
+        "Question": "What is Angular CLI command to generate a new component?",
+        "Answers": [
+            "To generate a new component in Angular CLI, you can use the command 'ng generate component component-name' or its shorthand 'ng g c component-name'."
+        ]
+    },
+    {
+        "id": 28,
+        "Question": "What is Angular Ivy Renderer?",
+        "Answers": [
+            "Angular Ivy Renderer is the rendering engine used by Angular Ivy.",
+            "It is responsible for converting Angular components into DOM elements."
+        ]
+    },
+    {
+        "id": 29,
+        "Question": "Explain Angular zone.run() method.",
+        "Answers": [
+            "The zone.run() method in Angular is used to execute a function inside the Angular zone.",
+            "It ensures that change detection and error handling are properly applied."
+        ]
+    },
+    {
+        "id": 30,
+        "Question": "What is Angular HttpClientInterceptor?",
+        "Answers": [
+            "Angular HttpClientInterceptor is an interface that intercepts HTTP requests and responses made by HttpClient.",
+            "It can be used for tasks like adding headers, logging, or error handling."
+        ]
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
