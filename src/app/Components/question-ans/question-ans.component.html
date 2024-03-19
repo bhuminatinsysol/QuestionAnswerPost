@@ -1,0 +1,26 @@
+<h1>Question answer component works</h1>
+
+
+<div *ngIf="Question != null">
+    <div class=" p-5 border border-2 border-dark ">
+      <div class="">
+
+        <form>
+          <input type="hidden">
+          <div class="">
+            <h1>{{Question.Question}}</h1>
+          </div>
+          <div class="p-3">
+            <input type="text" placeholder="Write your Answer" name="answer" #answer>
+          </div>
+          <div class="p-3"><button class="btn btn-primary " (click)="submitAnswer(answer.value,Question.id)">Submit</button></div>
+
+          <div class="card-container">
+            <ng-container *ngFor="let ans of Question.Answers">
+              <h3>{{ans}}</h3>
+            </ng-container>
+          </div>
+        </form>
+      </div>
+    </div>
+</div>

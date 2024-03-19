@@ -1,5 +1,6 @@
 import { Quest } from './../../models/QuestionModel';
 import { Component } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { QAServService } from 'src/app/Services/qaserv.service';
 
 
@@ -16,4 +17,5 @@ export class HomeComponent {
   {
     this.qaservice.getAllQuestions().subscribe((questions:any) => this.QuestionsList = questions);
   }
+
 }
