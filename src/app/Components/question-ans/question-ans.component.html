@@ -1,11 +1,9 @@
 <h1>Question answer component works</h1>
-
-
 <div *ngIf="Question != null">
     <div class=" p-5 border border-2 border-dark ">
       <div class="">
 
-        <form>
+        <!-- <form>
           <input type="hidden">
           <div class="">
             <h1>{{Question.Question}}</h1>
@@ -21,6 +19,33 @@
             </ng-container>
           </div>
         </form>
+ -->
+
+
+        <form [formGroup]="QuestionAnsForm" (ngSubmit)="submitAnswer(answer.value, Question.id)">
+          <div class="">
+            <h1>{{Question.Question}}</h1>
+          </div>
+          <div class="p-3">
+            <input type="text" placeholder="Write your Answer" formControlName="answer" name="answer" #answer>
+            <span class="text-danger"
+              *ngIf="QuestionAnsForm.get('answer')?.invalid && QuestionAnsForm.get('answer')?.dirty">
+              <span *ngIf="QuestionAnsForm.get('answer')?.hasError('required')">
+                Please write your answer
+              </span>
+            </span>
+          </div>
+          <div class="p-3"><button class="btn btn-primary " [disabled]="!QuestionAnsForm.valid">Submit</button></div>
+
+          <div class="card-container">
+            <ng-container *ngFor="let ans of Question.Answers">
+              <h3>{{ans}}</h3>
+            </ng-container>
+          </div>
+        </form>
+
+
+
       </div>
     </div>
 </div>

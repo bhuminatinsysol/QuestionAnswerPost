@@ -13,7 +13,6 @@ export class QuestionAnsComponent {
 
   @Input()Question!: Quest;
 
-
   QuestionAnsForm = new FormGroup({
     answer: new FormControl(null,Validators.required)
   });
